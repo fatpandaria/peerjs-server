@@ -14,7 +14,8 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha test/**/*.js",
-    "start": "bin/peerjs --port ${PORT:=9000}"
+    "start": "bin/peerjs --port ${PORT:=9000}",
+    "mystart": "bin/peerjs --port 9000 --key peerjs --path /myapp --sslcert /home/SSL/1_webchat.yutengrock.com_bundle.crt --sslkey /home/SSL/2_webchat.yutengrock.com.key --proxied true"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
