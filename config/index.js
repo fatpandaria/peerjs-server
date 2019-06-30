@@ -5,10 +5,10 @@ module.exports = {
   path: '/myapp',
   concurrent_limit: 5000,
   allow_discovery: false,
-  proxied: false,
+  proxied: true,
   cleanup_out_msgs: 1000,
   ssl: {
-    key: '',
-    cert: ''
+    key: '/home/SSL/2_webchat.yutengrock.com.key',
+    cert: '/home/SSL/1_webchat.yutengrock.com_bundle.crt'
   }
 };
