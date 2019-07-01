@@ -76,7 +76,7 @@ if (opts.sslkey || opts.sslcert) {
     process.exit(1);
   }
 }
-
+console.log(opts);
 const userPath = opts.path;
 const server = PeerServer(opts, server => {
   const host = server.address().address;
