@@ -15,7 +15,7 @@
   "scripts": {
     "test": "mocha test/**/*.js",
     "start": "bin/peerjs --port ${PORT:=9000}",
-    "mystart": "node ./bin/peerjs --port 9000 --key peerjs --proxied true"
+    "mystart": "node ./bin/mypeerjs"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
